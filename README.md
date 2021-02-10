@@ -11,11 +11,11 @@
 
 ### General Data Loading with Redux
 
-Component gets rendered to the screen
-Component's componentDidMount lifecycle method gets called
-We call action creator from 'componentDidMount'
-Action creator runs code to make an API request
-API responds with data
-Action creator returns an action with the feched data on de payload property
-Some reducer see the action, returns the data off the payload
-Because we generated some new state object, redux/react-redux cause our React app to be rendered
+1. Component gets rendered to the screen
+2. Component's componentDidMount lifecycle method gets called
+3. We call action creator from 'componentDidMount'
+4. Action creator runs code to make an API request
+5. API responds with data
+6. Action creator returns an action with the feched data on de payload property
+7. Some reducer see the action, returns the data off the payload
+8. Because we generated some new state object, redux/react-redux cause our React app to be rendered
